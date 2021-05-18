@@ -1,0 +1,25 @@
+.title{
+    font-family: Poppins;
+    font-size: 25px;
+}
+
+h2{
+    font-size: 20px;
+    color: rgb(182, 177, 177);
+}
+
+.pendiente{
+    background-color: blue;
+}
+
+.haciendo{
+    background-color: orange;
+}
+
+.hecho{
+    background-color: green;
+}
+
+.cancelado{
+    background-color: red;
+}

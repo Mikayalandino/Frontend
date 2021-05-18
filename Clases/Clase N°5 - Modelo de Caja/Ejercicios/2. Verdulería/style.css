@@ -1,0 +1,41 @@
+body{
+    font-family: Muli, sans-serif;
+    color: #242e4c;
+    background-color: #A5D6A7;
+}
+
+.container{
+    height: 353px;
+    width: 310px;
+    margin-top: 150px;
+    margin-left: 800px;
+    margin-bottom: 25px;
+    background-color: #F7F7FC;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 2px 14px 7px rgba(0, 0, 0, 0.253);
+}
+
+.title{
+    padding-top: 25px;
+
+}
+
+.description{
+    color: gray;
+    font-weight: lighter;
+}
+
+.div-frutas{
+    border-top-width: 5px;
+}
+
+.frutas{
+    height: 30px;
+    width: 170px;
+    margin-left: 66px;
+    border: solid rgba(32, 32, 32, 0.075) 1px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    
+}

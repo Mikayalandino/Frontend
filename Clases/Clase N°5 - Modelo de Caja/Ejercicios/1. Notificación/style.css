@@ -1,0 +1,50 @@
+body{
+    margin-left: 250px;
+    background: #F9F9FB;
+}
+
+div{
+    font-family: Montserrat;
+    height: 270px;
+    width: 367px;
+    margin: 300px 400px;
+    padding: 60px;
+    background-color: #ffffff;
+    border-radius: 5px;
+
+}
+
+img{
+    height: 58px;
+    width: 58px;
+}
+
+h2{
+    font-family: Raleway;
+    font-size: 20px;
+    padding: 0px;
+}
+
+p{
+    padding-bottom: 10px;    
+}
+
+.link{
+
+    color: #ADBEF2;
+    text-decoration: none;
+}
+
+button{
+    height: 45px;
+    width: 160px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, rgb(86, 154, 243), rgba(0, 17, 255, 0.664));
+    border: none;
+    border-radius: 5px;    
+
+}
+
+/* .button:hover{
+    
+} */

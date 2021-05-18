@@ -1,0 +1,20 @@
+*{
+    font-family: Monserrat;
+}
+
+.title{
+    font-size: 45px;
+}
+
+a{
+    color: #BE3969 ;
+    text-decoration: none;
+}
+
+.fecha{
+    color: #9b9b9b;
+}
+
+span{
+   background-color: #9b9b9b;
+}

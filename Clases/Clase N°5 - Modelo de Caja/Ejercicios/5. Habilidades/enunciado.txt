@@ -1,0 +1,2 @@
+Ejercicio 5: Habilidades
+Replicá este layout (https://www.uidesigndaily.com/posts/sketch-skills-list-card-day-929) y cargá el repositorio con el y cargá el repositorio con el corrrespondiente archivo .html.

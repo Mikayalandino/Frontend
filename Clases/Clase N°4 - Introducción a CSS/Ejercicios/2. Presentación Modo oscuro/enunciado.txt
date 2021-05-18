@@ -1,0 +1,5 @@
+Ejercicio 2: Presentación Modo Oscuro
+Para resaltar aún más nuestra presentación, vamos a agregarle un fondo oscuro  y un color de texto claro, los mismos deben ser:
+
+para el fondo: #212121;
+para el texto: #FAFAFA.

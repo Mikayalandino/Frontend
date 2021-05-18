@@ -1,0 +1,19 @@
+.blue {
+    color: #0000FF;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .white {
+    color: #ffffff;
+  }
+  
+  .red {
+    color: #FF0000;
+  }
+  
+  body {
+    background-color: #000;
+  }

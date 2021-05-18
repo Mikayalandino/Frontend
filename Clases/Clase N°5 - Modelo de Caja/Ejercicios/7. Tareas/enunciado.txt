@@ -1,0 +1,2 @@
+Ejercicio 7: Tareas
+Replicá este layout (https://imgur.com/CTzHqjK) y cargá el repositorio con el y cargá el repositorio con el corrrespondiente archivo .html.

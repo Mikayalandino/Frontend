@@ -1,0 +1,22 @@
+h1{
+    font-size: 100px;
+    font-family: Monserrat;
+}
+
+p{
+   color: #3C3C3C; 
+   font-family: Raleway;
+}
+
+.link{
+    color: #81D4D4; 
+    text-decoration: none;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+}

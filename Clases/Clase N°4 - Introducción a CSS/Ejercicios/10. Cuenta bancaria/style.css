@@ -1,0 +1,20 @@
+*{
+    font-family: Raleway;
+}
+
+h3{
+    font-size: 18px;
+}
+
+.fecha{
+    font-size: 10px;
+    color: #C8C8C8;
+}
+
+.ingreso{
+    color: #00C83C;
+}
+
+.salida{
+    color: #FF0000;
+}

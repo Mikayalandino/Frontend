@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:800");
+
+*{
+    box-sizing: border-box;
+    background-color: #EEEEEE;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container{
+    display: inline-block;
+    height: 800px;
+    width: 550px;
+    border-radius: 20px;
+    margin-left: 700px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    background-color: #CB2140;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+
+.top{
+    background-color: #CB2140;
+    border-radius : 10px 10px 0px 0px;
+}
+
+.bottom{
+    background-color: #0C1F2C;
+    border-radius: 20px;
+
+}
+
+h1, span, h2, p, div{
+    color: white;
+    background-color: #0C1F2C;
+}
+
+h1{
+    margin: auto;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
+.stwa, .merch, .sci{
+    height: 20px;
+    width: 80px;
+    font-size: 10px;
+    border: 1px solid red;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+h2{
+    font-size: 15px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+
+.texto{
+    font-size: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.precio{
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+button{
+    height: 50px;
+    width: 200px;
+    color: white;
+    background-color: #CB2140;
+    border-radius: 30px;
+    border-color: #CB2140;
+    margin-bottom: 30px;
+}

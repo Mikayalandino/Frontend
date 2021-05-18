@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    background-color: #F2F2F2;
+    font-family: sans-serif;
+}
+
+.container{
+    display: inline-block;
+    height: 850px;
+    width: 667px;
+    background-color: #FFFFFF;
+    margin-left: 600px;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.header, .cancelado, .evento, .titulo, .dias-eventos, .rojo, .horario, h3, p, span, h2, a, .dias{
+    background-color: #FFFFFF;
+}
+
+.dias{
+    display: inline-flex;
+}
+
+
+.cancelado{
+    margin-right: 5px;
+}
+
+.dias-eventos{
+    height: 36px;
+    width: 64px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #8C8C8C;
+    background-color: #FFFFFF;
+    padding-top: 10px;
+}
+
+.negro {
+    color: white;
+    background-color: #343434;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+
+.rojo{
+    color: #ec498a;
+}
+
+a{
+    text-decoration: none;
+}
+
+p, .horario{
+    color: #8C8C8C;
+}
+
+hr{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border: 1px solid rgba(220, 220, 220, 0.178);
+    margin-right: 40px;
+}

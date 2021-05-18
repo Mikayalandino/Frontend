@@ -1,0 +1,23 @@
+body{
+    background-color: #212121;
+  }
+  
+  .title{
+    font-size: 120px;
+    font-family: Monserrat;
+    color: #BE3969;
+  }
+  
+  p{
+    font-size: 48px;
+    font-family: Poppins;
+    color: #FAFAFA;
+  }
+  
+  .me{
+    color: #BE3969;
+  }
+  
+  .description{
+    color: #BE3969;
+  }

@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+.diez, .veint, .cinc, .setent, .noven{
+    height: 33px;
+    width: 500px;
+    background-color: #eaeaea;
+    padding: 3px;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+
+.progreso-diez{
+    height: 27px;
+    width: 10%;
+    background-color: #4CAF50;
+    border-radius: 50px;
+} 
+
+.progreso-veint{
+    height: 27px;
+    width: 20%;
+    background-color: #4CAF50;
+    border-radius: 50px;
+} 
+
+.progreso-cinc{
+    height: 27px;
+    width: 50%;
+    background-color: #4CAF50;
+    border-radius: 50px;
+} 
+
+.progreso-setent{
+    height: 27px;
+    width: 70%;
+    background-color: #4CAF50;
+    border-radius: 50px;
+} 
+
+.progreso-noven{
+    height: 27px;
+    width: 90%;
+    background-color: #4CAF50;
+    border-radius: 50px;
+} 

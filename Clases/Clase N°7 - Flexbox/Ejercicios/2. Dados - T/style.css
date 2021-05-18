@@ -1,0 +1,81 @@
+*{
+    background-color: #D3D3D3;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 800px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+
+.dado-uno, .dado-dos, .dado-tres, .dado-cuatro, .dado-cinco, .dado-seis{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.uno{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.dos, .dos-dos{
+    display: flex;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.tres, .tres-dos, .tres-tres{
+    display: flex;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.cuatro, .cuatro-dos, .cuatro-tres, .cuatro-cuatro{
+    display: flex;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.cinco, .cinco-dos, .cinco-tres, .cinco-cuatro, .cinco-cinco{
+    display: flex;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.seis, .seis-dos, .seis-tres, .seis-cuatro, .seis-cinco, .seis-seis{
+    display: flex;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: black;
+}

@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    background-color: #007ABF;
+    margin: 10px;
+}
+
+h2{
+    color: #E3E5E6;
+    
+}
+
+.container{
+    display: inline-block;
+    height: 270px;
+    width: 280px;
+    background-color: #E3E5E6;
+    border-radius: 3px;
+}
+
+.texto, p{
+    font-size: 16px;
+    height: 46px;
+    background-color: #FEFEFE;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+.titulo{
+    background-color: #E3E4E4;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+p{
+    color: gray;
+    background-color: #E3E5E6;
+    padding-top: 24px;
+}
