@@ -1,11 +1,33 @@
+body{
+    margin: auto;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.left{
+    display: flex;
+
+}
+
 .header{
     color: #000000;
     background-color: #FFC9FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav{
     color: #ffffff;
     background-color: #9A14EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -16,10 +38,16 @@
 .footer{
     color: #000000;
     background-color: #CB87F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .left-panel{
     color: #000000;
     background-color: #FF99FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
