@@ -1,0 +1,49 @@
+/* 
+transiciones: 
+.rojo {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition: 500ms linear;
+  margin: 20px;
+}
+.rojo:hover {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.amarillo {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  transition: 500ms;
+}
+.amarillo:hover {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+} */
+
+/* transformaciones  */
+
+/* transform-translate */
+
+.rojo {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: 1s linear;
+  }
+  
+  .rojo:hover {
+    transform: translate(30px, 30px)
+    /* transform: translateY(-30px) */
+    /* transform: translateX(30px) */
+  }
+  
+  .amarillo {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    transition: 1s;
+  }
+  
+  .amarillo:hover {
+    transform: translate(30px, 30px)
+  }

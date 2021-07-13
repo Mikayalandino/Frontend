@@ -1,0 +1,40 @@
+body{
+    background-color: #D3D3D3;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.dado{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    border-radius: 15px;
+    background-color: #ffff;
+}
+
+.dado-uno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uno{
+    height: 12%;
+    width: 12%;
+    background-color: #000;
+    border-radius: 15px;
+}
+
+.dos{
+    height: 12%;
+    width: 12%;
+    background-color: #000;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-end;
+}

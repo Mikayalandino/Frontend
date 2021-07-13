@@ -1,0 +1,55 @@
+/* .contenedor {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+}
+.tarjeta {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 250px;
+  height: 300px;
+  border: 1px solid black;
+}
+.imagen {
+  margin: 20px;
+  overflow: hidden;
+}
+.tarjeta > img {
+  transition: 0.1s ease-in;
+}
+.tarjeta > img:hover {
+  transform: scale(1.4)
+} */
+
+.contenedor {
+  
+    display: flex;
+    justify-content: center;
+  }
+  
+  .celeste {
+    
+    display: flex;
+    width: 1400px;
+    flex-wrap: wrap;
+    
+  }
+  
+  .rojo {
+    margin: 20px;
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    border: 1px solid black;
+  }
+  
+  .boton {
+    width: 217px;
+    height: 40px;
+    margin: 27px 16px 0;
+    padding: 8px 16px 10px 24px;
+    border-radius: 20px;
+    border: solid 1px #979797;
+  }

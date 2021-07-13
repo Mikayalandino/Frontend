@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+  }
+  
+  nav {
+    background-color: aquamarine;
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+  }
+  
+  .contenedor {
+    padding-top: 120px;
+    background-color: #cacaca;
+    height: 1500px;
+  }
+  
+  .main {
+    background-color: #777;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .tarjeta {
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    margin: 20px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .rojo {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+    position: absolute;
+    top: 200px;
+    right: 300px;
+  
+  }

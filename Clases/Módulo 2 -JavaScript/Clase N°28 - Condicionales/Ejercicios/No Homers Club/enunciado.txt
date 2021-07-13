@@ -1,0 +1,4 @@
+Club de los No Homeros
+
+1- Preguntarle al usuario su nombre
+2- Si el nombre del usuario NO es Homero, tenemos que mostrar un cartel que diga "Bienvenide a la web"

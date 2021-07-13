@@ -1,0 +1,8 @@
+Ejercicio 4: Listas de reproducción
+Nos pidieron un programa que permita ingresar el nombre de una playlist y el título de tres canciones, mediante los siguiente mensajes:
+
+¿Cuál es el nombre de la playlist?
+¿Cuál es la primera canción?
+¿Cuál es la segunda canción?
+¿Cuál es la tercera canción?
+Con está información el programa deberá mostrar el siguiente mensaje: Se ha creado la playlist {playlist} con las canciones {cancion1}, {cancion2}, {cancion3}

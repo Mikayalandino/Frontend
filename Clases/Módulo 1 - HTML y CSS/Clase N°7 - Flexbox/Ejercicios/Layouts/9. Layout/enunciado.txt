@@ -1,0 +1,3 @@
+Usando HTML semántico y Flexbox, replicá los siguientes layouts, cada uno en sus correspondientes archivos aparte (deben ocupar toda la página y las regiones deben distinguirse con colores diferentes, como se muestra en las imágenes): https://mumuki.io/frontend.ada/lessons/909-diseno-adaptable-flexbox
+
+Recrear la imagen 9

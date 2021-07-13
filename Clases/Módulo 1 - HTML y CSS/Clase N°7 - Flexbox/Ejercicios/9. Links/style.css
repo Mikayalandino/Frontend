@@ -1,0 +1,120 @@
+body{
+    background-color: #E7E8EC;
+}
+
+.container{
+    height: 700px;
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 500px;
+    padding: 100px;
+}
+
+.container-title{
+    padding-right: 700px;
+    font-size: 30px;
+}
+
+.main{
+    display: flex;
+}
+
+.card{
+    display: flex;
+    padding: 10px;
+    
+}
+
+.yellow{
+    width: 400px;
+    background-color: #FFBC00;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.equal, .image, .code{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.equal{
+    width: 400px;
+    padding: 20px;
+}
+
+.fa-th-large{
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+.fa-equals{
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #FFBC00;
+}
+
+.image{
+    width: 460px;
+    margin-right: 20px;
+}
+
+.fa-image{
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #FFBC00;
+}
+
+.fa-code{
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #FFBC00;
+}
+
+p{
+    font-size: 20px;
+}
+
+.code{
+    width: 380px;
+}
+
+.card-right{
+    height: 450px;
+    border: 1px solid #E4EBEB;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+span{
+    color: #FFBC00;
+}
+
+.card-med{
+    background-color: #F1F2F7;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}

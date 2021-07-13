@@ -1,0 +1,112 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    color: #324E63;
+    background-color: #6944FF;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 600px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 100px;
+    padding: 50px;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 70%;
+}
+
+.description{
+    text-align: center;
+}
+
+.name{
+    color: #6944FF;
+    font-weight: 700;
+}
+
+.text{
+    font-size: 20px;
+}
+
+.fa-map-marker-alt{
+    padding-right: 10px;
+}
+
+span{
+    font-weight: 700;
+}
+
+.localization{
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.estadistics{
+    display: flex;
+}
+
+.followers, .following, .articles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.number{
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.icons{
+    width: 350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fa-facebook{
+    font-size: 50px;
+    color: #0078D7;
+}
+
+.fa-twitter-square{
+    font-size: 50px;
+    color: #1DA1F2;
+}
+
+
+.fa-instagram-square{
+    font-size: 50px;
+    color: #E1306C;
+}
+
+.fa-github-square{
+    font-size: 50px;
+    color: #333333;
+}
+
+button{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #D5135A;
+    border: none;
+    border-radius: 30px;
+    margin: 50px;
+}

@@ -1,0 +1,39 @@
+.contenedor {
+    background-color: #cacaca;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .rojo {
+    background-color: red;
+    width: 100px;
+    height: 100px
+  }
+  
+  .naranja {
+    background-color: orange;
+    position: relative;
+    left: 300px;
+    top: 200px;
+  
+    width: 100px;
+    height: 100px;  
+  }
+  
+  .amarillo {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+  }
+  
+  
+  input {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 200px;
+  }
+  
+  .fa-search {
+    position: relative;
+    right: 25px;
+  }

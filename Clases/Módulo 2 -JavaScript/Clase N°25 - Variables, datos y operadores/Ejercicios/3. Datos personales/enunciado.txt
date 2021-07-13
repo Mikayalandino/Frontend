@@ -1,0 +1,9 @@
+Necesitamos un programa que permita ingresar nombre, apellido, edad, nacionalidad y número de documento con los siguientes mensajes respectivamente:
+
+¿Cuál es tu nombre?.
+¿Cuál es tu apellido?.
+¿Cuál es tu apellido?.
+¿Cuál es tu edad?
+¿Cuál es tu nacionalidad?
+¿Cuál es tu número de documento?
+Con esta información, el programa deberá mostrar el siguiente mensaje: El nuevo perfil fue ingresado al sistema: nombre: {nombre}, apellido: {apellido}, edad: {edad}, nacionalidad: {nacionalidad}, número de documento: {dni}

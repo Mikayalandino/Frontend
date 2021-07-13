@@ -1,0 +1,3 @@
+Ejercicio 8: Modal Reunión Finalizada
+Replicá este layout (https://www.uidesigndaily.com/posts/sketch-meeting-ended-modal-pop-up-components-dark-ui-theme-day-1107) y cargá el repositorio con el corrrespondiente archivo .html.
+

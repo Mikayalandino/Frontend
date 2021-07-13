@@ -1,0 +1,52 @@
+.seccion-principal {
+    background-color: pink
+  }
+  
+  .seccion-secundaria {
+    background-color: lightblue;
+  }
+  
+  .seccion-principal > h2 {
+    color: red;
+  }
+  
+  button:hover {
+    background-color: orange;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input:checked {
+    border: 2px solid blue;
+    margin: 30px
+  }
+  
+  input:placeholder-shown {
+    border: 2px solid purple;
+    background-color: greenyellow;
+  }
+  
+  input::placeholder {
+    color: brown
+  }
+  
+  p::first-letter {
+    font-size: 30px;
+  }
+  
+  .texto::first-letter {
+    font-size: 50px;
+  }
+  
+  .texto::selection {
+    background-color: lightseagreen;
+    color: blue;
+  }

@@ -1,0 +1,78 @@
+body{
+    color: #fff;
+    background: rgb(216,197,245);
+    background: linear-gradient(270deg, rgba(216,197,245,1) 0%, rgba(199,203,241,1) 100%);
+    font-family: 'Muli';
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 500px;
+    width: 600px;
+    background-color: #1A1832;
+    border: 1px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+}
+
+
+.fa-times{
+    color: #282547;
+    font-size: 30px;
+    font-weight: 100;
+    display: flex;
+}
+
+.icon-exs{
+    width: 580px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.card{
+    height: 140px;
+    width: 380px;
+    background-color: #282547;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title{
+    font-size: 15px;
+}
+
+.fas, .far{
+    color: #F3D779;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.clasification{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+
+.button{
+    width: 200px;
+    color: #fff;
+    background-color: #672CB9;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}

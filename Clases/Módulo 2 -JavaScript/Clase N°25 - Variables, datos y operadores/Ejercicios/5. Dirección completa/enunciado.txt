@@ -1,0 +1,10 @@
+Ejercicio 5: Dirección completa
+Necesitamos un programa que pida ingresar los siguientes datos de una dirección: calle, número, departamento, código postal, ciudad y país, mediante los siguiente mensajes respectivamente:
+
+¿Cuál es la calle?.
+¿Cuál es el número?.
+¿Cuál es el departamento?
+¿Cuál es el código postal?
+¿Cúal es la ciudad?
+¿Cúal es el país?
+Con está información el programa deberá mostrar el siguiente mensaje: La dirección que ha ingresado es: {calle} {numero} {departamento}, {codigoPostal}, {ciudad}, {pais}

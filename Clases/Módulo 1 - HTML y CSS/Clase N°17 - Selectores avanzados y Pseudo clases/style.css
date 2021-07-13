@@ -1,0 +1,82 @@
+form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .rosa {
+    background-color: pink;
+  }
+  
+  #rojo {
+    color: red;
+  }
+  
+  
+  .tema .lista-tema-actual {
+    background-color: pink;
+    margin: 12px;
+    border: 1px solid red;
+  }
+  
+  div > h4 {
+    background-color: orange;
+    margin: 10px;
+    border: 1px solid blue;
+  }
+  
+  .primero {
+    font-weight: bold;
+  }
+  
+  .primero + li {
+    color: green
+  }
+  
+  .primero ~ li {
+    color: blue;
+  }
+  
+  button {
+    padding: 14px 25px;
+    border: none;
+    background-color: green;
+    color: #fff;
+    margin: 20px;
+  }
+  
+  button:hover {
+    background-color: darkgreen;
+  }
+  
+  label:hover {
+    font-size: 20px
+  }
+  
+  div:hover {
+   color: red;
+  }
+  
+  
+  a {
+    color: red;
+  }
+  
+  a:visited {
+    color: orange
+  }
+  
+  a:active{
+    color:green
+  }
+  
+  a:focus {
+    border: 3px solid red
+  }
+  
+  input:focus {
+    border: 3px solid red
+  }
+  
+  button:focus {
+    border: 3px solid red
+  }
