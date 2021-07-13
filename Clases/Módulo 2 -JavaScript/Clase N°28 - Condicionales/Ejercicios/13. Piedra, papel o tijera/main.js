@@ -16,33 +16,32 @@ const jugarPiedraPapelTijera = (a, b) => {
     if (empate){
        alert("Empataste!")
     }
+
     else if (ganaUsuario1){
         alert("Gano el usuario 1!") 
         puntajeDeUsuario1 ++;  
     }
+
     else if (ganaUsuario2){
         alert("Gano el usuario 2!")
         puntajeDeUsuario2 ++;
     }
+
     else{
         alert("Ingrese una opcion valida")
     }
-    
 }
 
 const jugada1 = jugarPiedraPapelTijera(respuestaUsuario1, respuestaUsuario2) 
-
 respuestaUsuario1 = prompt("Usuario 1, piedra, papel o tijera")
 respuestaUsuario2 = prompt("Usuario 2, piedra, papel o tijera");
 
 
 const jugada2 = jugarPiedraPapelTijera(respuestaUsuario1, respuestaUsuario2) 
-
 respuestaUsuario1 = prompt("Usuario 1, piedra, papel o tijera")
 respuestaUsuario2 = prompt("Usuario 2, piedra, papel o tijera");
 
 const jugada3 = jugarPiedraPapelTijera(respuestaUsuario1, respuestaUsuario2) 
-
 respuestaUsuario1 = prompt("Usuario 1, piedra, papel o tijera")
 respuestaUsuario2 = prompt("Usuario 2, piedra, papel o tijera");
 
