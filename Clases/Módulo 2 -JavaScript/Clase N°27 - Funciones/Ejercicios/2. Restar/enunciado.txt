@@ -1,0 +1,9 @@
+Ejercicio 2: Restar
+Definí una función restar que tome por parámetros dos números y devuelva la resta de ellos
+
+ restar(3, 2) 
+1
+ restar(10, 5.5) 
+4.5
+ restar(3, 5) 
+-2

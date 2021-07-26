@@ -1,0 +1,5 @@
+Ejercicio 8: Saludar
+Definí una función saludar que tome por parámetros un nombre y devuelva un saludo que lo incluya.
+
+ saludar('Ada')
+'Hola Ada, un gusto conocerte'
