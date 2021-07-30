@@ -1,0 +1,5 @@
+Ejercicio 7: Obtener nombre completo
+Definí una función obtenerNombreCompleto que reciba como argumento un nombre y un apellido y devuelva un string con la unión de ambos valores
+
+ obtenerNombreCompleto('Ada', 'Lovelace')
+'Ada Lovelace'
