@@ -1,0 +1,9 @@
+Ejercicio 3: Puede avanzar
+Definí una función puedeAvanzar que tome por parámetro un string con un color del semáforo y nos diga si puede avanzar
+
+ puedeAvanzar('verde')     
+true
+ puedeAvanzar('amarillo')
+false
+ puedeAvanzar('rojo')  
+false

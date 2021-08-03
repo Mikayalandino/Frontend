@@ -1,0 +1,9 @@
+Ejercicio 5: ¿Es consonante?
+Definí una función esConsonante que reciba como argumento un string letra y nos indique si letra es una consonante.
+
+ esConsonante('a')
+false
+ esConsonante('n')
+true
+ esConsonante('e')
+false

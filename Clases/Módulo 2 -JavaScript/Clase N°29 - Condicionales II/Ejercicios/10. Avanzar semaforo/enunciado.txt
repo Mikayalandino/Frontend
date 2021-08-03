@@ -1,0 +1,9 @@
+Ejercicio 10: Avanzar semáforo
+Definí una función avanzarSemaforo que reciba como argumento un string colorActual y devuelva un string con el siguiente color del semáforo, siguiendo el orden: verde -> amarillo -> rojo -> verde
+
+ avanzarSemaforo('verde')
+'amarillo'
+ avanzarSemaforo('amarillo')
+'rojo'
+ avanzarSemaforo('rojo')
+'verde'

@@ -1,0 +1,5 @@
+Escribir un codigo que use for que muestre en consola todos los numeros pares del 1 al 100
+
+Escribir un codigo con for que muestre en consola todos los numeros del 1000 al 1
+
+Escribir un codigo que use for que empiece en 100 y vaya decreciendo de 3 en 3 hasta llegar al 1

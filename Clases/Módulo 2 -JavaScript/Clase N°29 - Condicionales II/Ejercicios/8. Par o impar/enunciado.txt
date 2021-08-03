@@ -1,0 +1,7 @@
+Ejercicio 8: Par o impar
+Definí una función esParOImpar que tome un numero y retorne el string par si el numero es par, o el string impar si el numero es impar
+
+esParOImpar(3)
+'impar'
+esParOImpar(10)
+'par'
