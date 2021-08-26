@@ -1,0 +1,3 @@
+ejercicios-acumuladoras
+const numeros = [5, 7, 8, 4]
+Hacer un codigo que recorra el array numeros y muestre en consola la suma de todos ellos. El resultado deberia ser 24.

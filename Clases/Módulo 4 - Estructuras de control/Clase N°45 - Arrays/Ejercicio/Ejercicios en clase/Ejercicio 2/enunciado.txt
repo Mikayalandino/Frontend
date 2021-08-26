@@ -1,0 +1,4 @@
+const nombres = ["Ana", "Elsa", "Olaf", "Sven", "Hans"]
+Dado el anterior array de nombres, hacer un codigo que recorra todos los nombres y muestre en consola el mensaje
+
+Ana - Elsa - Olaf - Sven - Hans (con guiones)

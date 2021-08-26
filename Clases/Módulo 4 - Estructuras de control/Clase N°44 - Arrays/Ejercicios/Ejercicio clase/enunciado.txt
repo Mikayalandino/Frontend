@@ -1,0 +1,7 @@
+HTML
+
+Seis divs con forma de tarjeta
+
+Un botón, que al hacerle click haga que en todos los divs aparezca la frase "Hola chicas"
+
+Al hacerle click a cada tarjeta, que esa tarjeta cambie su color de fondo

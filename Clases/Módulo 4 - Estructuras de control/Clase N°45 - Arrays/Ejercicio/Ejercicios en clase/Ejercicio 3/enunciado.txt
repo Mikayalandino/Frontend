@@ -1,0 +1,2 @@
+Dado el mismo array, hacer un codigo que muestre en consola el siguiente mensaje:
+<li>Ana</li><li>Elsa</li><li>Ana</li><li>Olaf</li><li>Sven</li><li>Hans</li>
