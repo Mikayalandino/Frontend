@@ -1,0 +1,16 @@
+header {
+    background-color: pink;
+    height: 200px;
+}
+  
+.principal {
+display: flex;
+}
+
+.card {
+width: 100px;
+height: 100px;
+background-color: red;
+margin: 50px;
+transition: all 2s
+}
