@@ -1,0 +1,5 @@
+Ejercicio 2: Sumar
+Definí una función sumar que reciba una matriz de números  y devuelva la suma de todos los números de dicha matriz.
+
+ sumar([[4, 5],[2, 7, 1],[8, 10],])
+37
