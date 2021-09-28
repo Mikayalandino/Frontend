@@ -1,0 +1,7 @@
+Ejercicio 5
+Crear un array llamado tecnologiasConocidas donde se listen las tecnologias que aprendiste durante el curso y las que ya supieras de antes
+
+Agregar al objeto creado en el ejercicio 1 dos propiedades:
+
+sabeProgramar: true
+tecnologiasConocidas: [el array que creaste recien]

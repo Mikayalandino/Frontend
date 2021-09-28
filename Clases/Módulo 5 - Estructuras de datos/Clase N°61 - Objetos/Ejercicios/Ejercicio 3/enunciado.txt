@@ -1,0 +1,11 @@
+Ejercicio 3
+Con los objetos creados en el ejercicio anterior, mostrar en la consola los siguientes datos de cada persona:
+// 1. El nombre de Ada:
+
+// 2. El ID de Grace
+
+// 3. El email de Hedy
+
+// 4. El ID y nombre de Radia
+
+// 5. El telefono de Sheryl
