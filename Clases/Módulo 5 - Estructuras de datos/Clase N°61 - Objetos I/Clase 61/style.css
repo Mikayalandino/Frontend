@@ -1,0 +1,17 @@
+.producto {
+    width: 200px;
+    height: 400px;
+    padding: 20px;
+    margin: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+  
+  }
+  
+  .producto img {
+    width: 100%;
+  }
+  
+  .envio-gratis {
+    color: green
+  }
