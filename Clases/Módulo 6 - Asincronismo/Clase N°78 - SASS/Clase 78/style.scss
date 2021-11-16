@@ -1,0 +1,37 @@
+$color-principal: #033455;
+$tipografia-principal: "Helvetica";
+$color-secundario: #ffff;
+$tipografia-secundaria: "Courier New";
+$distancia-sombra: 15px;
+$sombra: rgba(0, 0, 0, 0.35) 0px 5px $distancia-sombra;
+$color-tarjeta-adentro: #00ff;
+
+@mixin flex-centrar ($direccion: "row") {
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta {
+    @include flex-centrar($direccion: column);
+    background-color: $color-secundario;
+    width: 100px;
+    height: 100px;
+    font-family: $tipografia-principal;
+    box-shadow: $sombra;
+}
+
+.seccion-principal {
+    @include flex-centrar();
+    background-color: $color-principal;
+    .tarjeta{
+        @include flex-centrar();
+        background-color: $color-tarjeta-adentro;
+        a{
+            @include flex-centrar();
+            color: pink;
+        }
+
+    }
+}

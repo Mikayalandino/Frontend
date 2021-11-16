@@ -1,0 +1,35 @@
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffff;
+  width: 100px;
+  height: 100px;
+  font-family: "Helvetica";
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.seccion-principal {
+  display: flex;
+  flex-direction: "row";
+  justify-content: center;
+  align-items: center;
+  background-color: #033455;
+}
+.seccion-principal .tarjeta {
+  display: flex;
+  flex-direction: "row";
+  justify-content: center;
+  align-items: center;
+  background-color: #00ff;
+}
+.seccion-principal .tarjeta a {
+  display: flex;
+  flex-direction: "row";
+  justify-content: center;
+  align-items: center;
+  color: pink;
+}
+
+/*# sourceMappingURL=style.css.map */
