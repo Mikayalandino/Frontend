@@ -127,40 +127,41 @@ const lista = document.querySelector('#nombres');
 // console.log(resultado);
 
 
-// const operaciones = [
-//   {
-//     tipo: "gasto", 
-//     monto: 100
-//   }, 
-//   {
-//     tipo: "ganancia",
-//     monto: 200 
-//   }, 
-//   {
-//     tipo: "gasto", 
-//     monto: 50
-//   }
-// ]
 
-// const gastos = operaciones.filter((elemento) => {
-//   return elemento.tipo === "gasto"
-// })
+const operaciones = [
+  {
+    tipo: "gasto", 
+    monto: 100
+  }, 
+  {
+    tipo: "ganancia",
+    monto: 200 
+  }, 
+  {
+    tipo: "gasto", 
+    monto: 50
+  }
+]
 
-// const ganancias = operaciones.filter((elemento) => {
-//   return elemento.tipo === "ganancia"
-// })
+const gastos = operaciones.filter((elemento) => {
+  return elemento.tipo === "gasto"
+})
 
-// const sumaGastos = gastos.reduce((acc, elemento) => {
-//   return acc + elemento.monto
-// }, 0)
-// console.log(gastos)
-// console.log(sumaGastos)
+const ganancias = operaciones.filter((elemento) => {
+  return elemento.tipo === "ganancia"
+})
 
-// quedarme con los gastos
-// sumar entre si
+const sumaGastos = gastos.reduce((acc, elemento) => {
+  return acc + elemento.monto
+}, 0)
+console.log(gastos)
+console.log(sumaGastos)
 
-// quedarme con las ganancias
-// sumar los montos entre si
+quedarme con los gastos
+sumar entre si
+
+quedarme con las ganancias
+sumar los montos entre si
 
 
 
