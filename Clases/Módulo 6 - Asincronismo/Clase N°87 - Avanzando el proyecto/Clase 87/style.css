@@ -1,0 +1,42 @@
+body {
+  background-color: #9932CC;
+}
+
+.tarjetas {
+  display: flex;
+}
+.tarjetas .tarjeta {
+  width: 200px;
+  border: 1px solid white;
+}
+.tarjetas .tarjeta .tarjeta-principal {
+  background-color: gray;
+}
+.tarjetas .tarjeta .tarjeta-principal h1 {
+  font-size: 20px;
+  color: #9932CC;
+}
+
+.boton {
+  width: 100px;
+  height: 40px;
+  font-family: Tahoma;
+  padding: 10px;
+  color: red;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+}
+
+.boton-secundario {
+  width: 100px;
+  height: 40px;
+  font-family: Tahoma;
+  padding: 10px;
+  color: blue;
+  background-color: lightblue;
+  border: none;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

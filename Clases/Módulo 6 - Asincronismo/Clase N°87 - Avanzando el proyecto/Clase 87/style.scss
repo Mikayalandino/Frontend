@@ -1,0 +1,61 @@
+$color-principal: #9932CC;
+$color-secundario: gray;
+
+body {
+  background-color: $color-principal;
+}
+
+.tarjetas {
+  display: flex;
+
+  .tarjeta {
+    width: 200px;
+    border: 1px solid white;
+    .tarjeta-principal {
+      background-color: $color-secundario;
+      h1 {
+        font-size: 20px;
+        color: $color-principal;
+      }
+    }
+  }
+}
+
+@mixin hacer-boton($color, $color-background) {
+  width: 100px;
+  height: 40px;
+  font-family: Tahoma;
+  padding: 10px;
+  color: $color;
+  background-color: $color-background;
+  border: none;
+  border-radius: 10px;
+}
+
+.boton {
+  @include hacer-boton($color: red, $color-background: black)
+} 
+
+.boton-secundario {
+  @include hacer-boton($color: blue, $color-background: lightblue)
+}
+
+
+// @mixin flex($direction) {
+//   display: flex;
+//   flex-direction: $direction;
+//   align-items: center;
+//   justify-content: center;
+// }
+
+// .seccion {
+//  @include flex($direction: column)
+// }
+
+// .tarjeta {
+//   @include flex($direction: row)
+// }
+
+// .titulo {
+//   @include flex($direction: column)
+// }
