@@ -111,7 +111,8 @@ next.onclick = () => {
   // paginaActual = paginaActual + 1
   paginaActual++
 
-  // Math.ceil(cantidad / resultadosPorPagina )
+  // resultado para abajo: Math.ceil(cantidad / resultadosPorPagina ) 
+    // resultado para arriba: Math.floor(num) (cantidad / resultadosPorPagina )
 
   if (paginaActual === ultimaPagina) {
     next.disabled = true

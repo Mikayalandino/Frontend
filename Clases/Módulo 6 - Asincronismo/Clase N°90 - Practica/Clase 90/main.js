@@ -1,5 +1,3 @@
-
-
 const form = document.querySelector("#form-busqueda")
 const inputBusqueda = document.querySelector("#busqueda")
 const seccionTarjetas = document.querySelector("#tarjetas")

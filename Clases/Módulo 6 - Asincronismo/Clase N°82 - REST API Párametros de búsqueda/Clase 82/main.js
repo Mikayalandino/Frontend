@@ -1,76 +1,76 @@
-// // API REST
+/*   API REST
 
-// // Maneja su informacion 
+  Maneja su informacion 
 
-// // URL base https://rickandmortyapi.com/api/
+  URL base https:rickandmortyapi.com/api/
 
-// // - endpoints
-//    // episode/
-//    // location/
-//    // character/
+  - endpoints
+     episode/
+     location/
+     character/
 
-// // - recursos 
-// // informacion puesta a disposicion en los endpoints 
-// // generalmente, el id de cada objeto 
+  - recursos 
+  informacion puesta a disposicion en los endpoints 
+  generalmente, el id de cada objeto 
 
-// // optativo: query params o parametros de busqueda 
-// // estructura:
-// // ?gender=female&status=alive 
+  optativo: query params o parametros de busqueda 
+  estructura:
+  ?gender=female&status=alive 
 
-// // url completa:
-// // https://rickandmortyapi.com/api/character?gender=female 
+  url completa:
+  https:rickandmortyapi.com/api/character?gender=female  */
 
-// const personajes = document.querySelector("#personajes")
-// const prev = document.querySelector("#prev")
-// const next = document.querySelector("#next")
+ const personajes = document.querySelector("#personajes")
+ const prev = document.querySelector("#prev")
+ const next = document.querySelector("#next")
 
-// let paginaActual = 1 
+ let paginaActual = 1 
 
 
-// const buscarInformacion = () => {
-//   fetch(`https://rickandmortyapi.com/api/character?page=${paginaActual}`)
-//   .then((res) => res.json())
-//   .then((data) => {
-//     crearTarjetasPersonaje(data.results)
-//   })
-// }
+ const buscarInformacion = () => {
+   fetch(`https:rickandmortyapi.com/api/character?page=${paginaActual}`)
+   .then((res) => res.json())
+   .then((data) => {
+     crearTarjetasPersonaje(data.results)
+   })
+ }
 
-// buscarInformacion()
+ buscarInformacion()
 
-// next.onclick = () => {
-//   paginaActual = paginaActual + 1
-//   buscarInformacion()
+ next.onclick = () => {
+   paginaActual = paginaActual + 1
+   buscarInformacion()
  
-// }
+ }
 
-// prev.onclick = () => {
+ prev.onclick = () => {
   
-//   if (paginaActual === 1) {
-//     prev.disabled = true
-//   }
-//   paginaActual = paginaActual - 1
-//   buscarInformacion()
-// }
+   if (paginaActual === 1) {
+     prev.disabled = true
+   }
+   paginaActual = paginaActual - 1
+   buscarInformacion()
+ }
 
-// const crearTarjetasPersonaje = (data) => {
-//   const html = data.reduce((acc, curr) => {
-//     return acc + `
-//     <article class="personaje">
-//       <h2>${curr.name}</h2>
-//       <img src="${curr.image}">
-//     </article>
-//     `
-//   }, "")
-//   personajes.innerHTML = html
-// }
-
-
-
-// seccion reportes en ahorradas
+ const crearTarjetasPersonaje = (data) => {
+   const html = data.reduce((acc, curr) => {
+     return acc + `
+     <article class="personaje">
+       <h2>${curr.name}</h2>
+       <img src="${curr.image}">
+     </article>
+     `
+   }, "")
+   personajes.innerHTML = html
+ }
 
 
 
-// totales por categoria 
+ /* seccion reportes en ahorradas
+
+
+
+ totales por categoria 
 
 const operaciones = [
   {
@@ -132,66 +132,66 @@ const operaciones = [
                      
 const categorias = ["mascotas", "trabajo", "servicios"]
 
-// const separarPorCategoria = () => {
+ const separarPorCategoria = () => {
 
-//   let arrayOperacionPorCategoria = []
+   let arrayOperacionPorCategoria = []
 
-//   categorias.map((categoria) => {
-//     arrayOperacionPorCategoria.push([])
-//   })
+   categorias.map((categoria) => {
+     arrayOperacionPorCategoria.push([])
+   })
 
-//   // [ [], [], [] ]
-//   operaciones.map((operacion) => {
-//     const indiceCategoria = categorias.indexOf(operacion.categoria)
-//     arrayOperacionPorCategoria[indiceCategoria].push(operacion)
-//   })
+    [ [], [], [] ]
+   operaciones.map((operacion) => {
+     const indiceCategoria = categorias.indexOf(operacion.categoria)
+     arrayOperacionPorCategoria[indiceCategoria].push(operacion)
+   })
 
-//   console.log(arrayOperacionPorCategoria)
+   console.log(arrayOperacionPorCategoria)
 
- // esto es lo que hicimos antes, esta mal: 
-  // const categoriaMascotas = []
-  // const categoriaTrabajo = []
-  // operaciones.map((operacion) => {
-  //   if (operacion.categoria === "mascotas") {
-  //     categoriaMascotas.push(operacion)
-  //   }
-  //   if (operacion.categoria === "trabajo") {
-  //     categoriaTrabajo.push(operacion)
-  //   }
-  // })
+  esto es lo que hicimos antes, esta mal: 
+   const categoriaMascotas = []
+   const categoriaTrabajo = []
+   operaciones.map((operacion) => {
+     if (operacion.categoria === "mascotas") {
+       categoriaMascotas.push(operacion)
+     }
+     if (operacion.categoria === "trabajo") {
+       categoriaTrabajo.push(operacion)
+     }
+   })
 
-// todo este codigo tendria que hacerse con un for sobre nuestra matriz 
+ todo este codigo tendria que hacerse con un for sobre nuestra matriz 
 
-//       const gananciasPorMascota = categoriaMascotas.filter((operacion) => {
-//         return operacion.tipo === "ganancia"
-//       })
-//       const gastosPorMascota = categoriaMascotas.filter((operacion) => {
-//         return operacion.tipo === "gasto"
-//       })
-//     console.log(gananciasPorMascota)
+       const gananciasPorMascota = categoriaMascotas.filter((operacion) => {
+         return operacion.tipo === "ganancia"
+       })
+       const gastosPorMascota = categoriaMascotas.filter((operacion) => {
+         return operacion.tipo === "gasto"
+       })
+     console.log(gananciasPorMascota)
 
-//     const sumaGananciasMascota = gananciasPorMascota.reduce((acc, curr) => {
-//       return acc + curr.monto
-//     }, 0)
+     const sumaGananciasMascota = gananciasPorMascota.reduce((acc, curr) => {
+       return acc + curr.monto
+     }, 0)
 
-//     const sumaGastosMascota = gastosPorMascota.reduce((acc, curr) => {
-//       return acc + curr.monto
-//     }, 0)
-
-
-//     const balanceMascotas = sumaGananciasMascota - sumaGastosMascota
-
-//     console.log("sumaGananciasMascota", sumaGananciasMascota)
-//     console.log("sumaGastosMascota", sumaGastosMascota)
-//     console.log("balanceMascotas", balanceMascotas)
-
-// }
-
-// separarPorCategoria()
+     const sumaGastosMascota = gastosPorMascota.reduce((acc, curr) => {
+       return acc + curr.monto
+     }, 0)
 
 
+     const balanceMascotas = sumaGananciasMascota - sumaGastosMascota
 
-// totales por mes
+     console.log("sumaGananciasMascota", sumaGananciasMascota)
+     console.log("sumaGastosMascota", sumaGastosMascota)
+     console.log("balanceMascotas", balanceMascotas)
+
+ }
+
+ separarPorCategoria()
+
+
+
+ totales por mes
 
 const obtenerTotalesPorMes = () => {
   const meses = [0, 1, 2 , 3, 4, 5, 6, 7, 8, 9, 10, 11]
@@ -219,14 +219,14 @@ const obtenerTotalesPorMes = () => {
       return acc
     }, 0)
     console.log(sumaGanancias)
-    // hacer el html aca mismo (o llamar aca a la funcion que hace el html)
+     hacer el html aca mismo (o llamar aca a la funcion que hace el html)
   })
 }
 
 obtenerTotalesPorMes()
 
 
-// operacionPorMes y arrayOperacionPorCategoria son MATRICES
-// arrays que contienen arrays
-// para trabajar con matrices necesitamos un FOR ADENTRO DE UN FOR
-// o UN MAP ADENTRO DE UN MAP (O REDUCE, O FILTER, ETC)
+ operacionPorMes y arrayOperacionPorCategoria son MATRICES
+ arrays que contienen arrays
+ para trabajar con matrices necesitamos un FOR ADENTRO DE UN FOR
+ o UN MAP ADENTRO DE UN MAP (O REDUCE, O FILTER, ETC) */
