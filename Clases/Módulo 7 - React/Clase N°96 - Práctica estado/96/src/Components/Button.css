@@ -1,0 +1,19 @@
+.boton {
+    height: 50px;
+    width: 100px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.rojo {
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+}
+
+.verde {
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+}

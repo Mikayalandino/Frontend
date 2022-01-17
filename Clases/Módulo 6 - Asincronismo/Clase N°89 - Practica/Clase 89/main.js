@@ -1,16 +1,16 @@
-// // API KEY 
+ API KEY 
 
-// // open weather api key: 28dd2ec85ef2c8982f8cc2380349186a
+ open weather api key: 28dd2ec85ef2c8982f8cc2380349186a
 
 
-// // tres maneras de mostrar la info de un endpoint
-// // estos son ejemplos, LEAN LA DOCUMENTACION DE CADA API 
+ tres maneras de mostrar la info de un endpoint
+ estos son ejemplos, LEAN LA DOCUMENTACION DE CADA API 
 
-// // /characters  --> nos trae la lista completa de recursos
-// // /characters/1 --> nos va a traer 1 recurso en especifico
-// // /characters?q=Rick --> nos trae todos los recursos que coincidan con la busqueda
+ /characters  --> nos trae la lista completa de recursos
+ /characters/1 --> nos va a traer 1 recurso en especifico
+ /characters?q=Rick --> nos trae todos los recursos que coincidan con la busqueda
 
-// // busqueda:
+ busqueda:
 
 
  const buscarInfo = (ciudad, sistema) => {
