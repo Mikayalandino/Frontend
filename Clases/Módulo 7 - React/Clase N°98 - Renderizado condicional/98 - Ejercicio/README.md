@@ -84,8 +84,8 @@ const gatos = [
 ];
 ```
 
-6. Recorrer el array gatos y por cada elemento del array retornar el componente BotonGato pasandole el nombre de cada gato (recorda que son objetos, queremos la propiedad name de cada uno de ellos)
+8. Recorrer el array gatos y por cada elemento del array retornar el componente BotonGato pasandole el nombre de cada gato (recorda que son objetos, queremos la propiedad name de cada uno de ellos)
 
-7. Crear el componente TarjetaGato que reciba como props: un nombre, una descripcion y una imagen. TarjetaGato debe tener un titulo con el nombre, un parrafo con la descripcion y la imagen. 
+9. Crear el componente TarjetaGato que reciba como props: un nombre, una descripcion y una imagen. TarjetaGato debe tener un titulo con el nombre, un parrafo con la descripcion y la imagen. 
 
-8. Recorrer el array gatos y por cada elemento, retornar el componente TarjetaGato pasandole las props correspondientes. 
+10. Recorrer el array gatos y por cada elemento, retornar el componente TarjetaGato pasandole las props correspondientes. 
