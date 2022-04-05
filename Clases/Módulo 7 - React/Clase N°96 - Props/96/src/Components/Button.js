@@ -5,7 +5,10 @@ import "./Button.css"
 
 const Button = ({ color, mensaje }) => {
     return (
-        <button className={`boton ${color}`} id="1">{mensaje}</button>
+        <button
+            className={`boton ${color}`} 
+            id="1">{mensaje}
+         </button>
     )
 }
 
