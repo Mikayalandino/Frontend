@@ -1,0 +1,9 @@
+ul {
+    background-color: rgb(215, 250, 218);
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+}
