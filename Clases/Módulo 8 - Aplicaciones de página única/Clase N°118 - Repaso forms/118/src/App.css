@@ -1,0 +1,10 @@
+
+.carousel {
+    height: 500px;
+  }
+  
+  .buttonWrapper {
+    position: absolute;
+    bottom: 20px !important
+  }
+  
